@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=puppeteer-proxy">
+  <a href="https://fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=puppeteer-proxy">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-dark.png">
       <img src="https://raw.githubusercontent.com/FusionProxies/.github/main/assets/logo-on-light.png" alt="Fusion Proxy" height="52">
@@ -9,7 +9,7 @@
 
 # Puppeteer with residential proxies
 
-How to use [Fusion Proxy](https://fusionproxy.net/?utm_source=github&utm_medium=puppeteer-proxy) residential proxies in Puppeteer: authenticated proxy, country targeting, and one sticky IP per browser context.
+How to use [Fusion Proxy](https://fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=puppeteer-proxy) residential proxies in Puppeteer: authenticated proxy, country targeting, and one sticky IP per browser context.
 
 ## Setup
 
@@ -22,7 +22,7 @@ npm install
 node example.mjs
 ```
 
-Your username and password are in the [dashboard](https://dashboard.fusionproxy.net/?utm_source=github&utm_medium=puppeteer-proxy). The script opens two browser contexts and prints the exit IP each one got.
+Your username and password are in the [dashboard](https://dashboard.fusionproxy.net/?utm_source=github&utm_medium=referral&utm_campaign=puppeteer-proxy). The script opens two browser contexts and prints the exit IP each one got.
 
 ## How it works
 
@@ -45,7 +45,7 @@ await page.goto('https://ipinfo.io/json');
 | `-sessid-4821937` | Session ID. The same ID keeps the same IP; a new ID gets a new IP |
 | `-sessTime-600s` | How long the session holds its IP, 1 to 120 minutes, in seconds |
 
-A page loads many resources, and on the rotating port each new connection can get a different IP. A sticky session per context keeps every request of that context on one residential IP. All options are explained in the [endpoint generator guide](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=puppeteer-proxy).
+A page loads many resources, and on the rotating port each new connection can get a different IP. A sticky session per context keeps every request of that context on one residential IP. All options are explained in the [endpoint generator guide](https://fusionproxy.net/guides/endpoint-generator?utm_source=github&utm_medium=referral&utm_campaign=puppeteer-proxy).
 
 ## Notes
 
@@ -56,8 +56,8 @@ A page loads many resources, and on the rotating port each new connection can ge
 ## More
 
 - [Code examples in 8 languages](https://github.com/FusionProxies/fusionproxy)
-- [Playwright version](https://github.com/FusionProxies/playwright-proxy)
-- [Residential proxies](https://fusionproxy.net/proxies/residential?utm_source=github&utm_medium=puppeteer-proxy) · [Pricing](https://fusionproxy.net/pricing?utm_source=github&utm_medium=puppeteer-proxy) · [Free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=puppeteer-proxy)
+- [Playwright version](https://github.com/FusionProxies/playwright-proxy) and [Selenium version](https://github.com/FusionProxies/selenium-proxy)
+- [Residential proxies](https://fusionproxy.net/proxies/residential?utm_source=github&utm_medium=referral&utm_campaign=puppeteer-proxy) · [Pricing](https://fusionproxy.net/pricing?utm_source=github&utm_medium=referral&utm_campaign=puppeteer-proxy) · [Free trial](https://fusionproxy.net/free-trial?utm_source=github&utm_medium=referral&utm_campaign=puppeteer-proxy)
 
 ## License
 
